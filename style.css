@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+}
+
+.header {
+  /* border: 2px solid red; */
+}
+
+.Tributeset {
+  position: relative;
+  display: inline-block;
+  bottom: 400px;
+  left: 80px;
+  color: whitesmoke;
+  font-family: "Oswald", sans-serif;
+  /* border: 2px solid red;     */
+}
+
+.first {
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.second {
+  font-weight: 700;
+  font-size: 250px;
+  line-height: 195px;
+  margin-left: -10px;
+}
+
+img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.discmm {
+  position: absolute;
+  width: 60px;
+  height: auto;
+  top: 280px;
+  left: 230px;
+  cursor: pointer;
+  /* border: 1px solid red; */
+}
+
+.rotator{
+    animation: rotation 3s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+@media screen and (max-width: 991px) {
+  .first {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .second {
+    font-size: 200px;
+    line-height: 160px;
+  }
+
+  .Tributeset {
+    bottom: 330px;
+    left: 80px;
+  }
+
+  .discmm {
+    width: 50px;
+    left: 190px;
+    top: 230px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .first {
+    font-size: 45px;
+  }
+
+  .second {
+    font-size: 180px;
+    line-height: 140px;
+  }
+  .Tributeset {
+    bottom: 300px;
+    left: 80px;
+  }
+  .discmm {
+    width: 45px;
+    left: 170px;
+    top: 210px;
+  }
+}

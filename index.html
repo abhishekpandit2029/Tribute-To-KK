@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <img src="./stuff/a.jpg" alt="kk" />
+
+      <p class="Tributeset">
+        <span class="first">TRIBUTE TO</span><br />
+        <span class="second">KK</span><br />
+        <span class="first"
+          >A LEGEND <img class="discmm" id="rotator" src="./stuff/disc.png" alt="disc" onclick="mplay()"
+        /></span>
+      </p>
+      <audio src="./stuff/kk.mp3" id="audio"></audio>
+    </div>
+
+    <script type="text/javascript">
+      const mplay = () => {
+        var audioElem = document.getElementById("audio");
+        var element = document.getElementById("rotator");
+        element.classList.toggle("rotator");
+        if (audioElem.paused) audioElem.play();
+        else audioElem.pause();
+      };
+    </script>
+  </body>
+</html>
