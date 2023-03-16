@@ -3,9 +3,9 @@
 body {
   margin: 0;
 }
-
-.header {
-  /* border: 2px solid red; */
+.header{
+  /* border: 1px solid red; */
+  margin-bottom: -380px;
 }
 
 .Tributeset {
@@ -51,6 +51,7 @@ img {
     animation: rotation 3s infinite linear;
 }
 
+
 @keyframes rotation {
     from {
       transform: rotate(0deg);
@@ -81,6 +82,10 @@ img {
     left: 190px;
     top: 230px;
   }
+
+  .header{
+    margin-bottom: -315px;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -92,13 +97,53 @@ img {
     font-size: 180px;
     line-height: 140px;
   }
+
   .Tributeset {
     bottom: 310px;
     left: 30px;
   }
+  
   .discmm {
     width: 45px;
     left: 170px;
     top: 210px;
   }
+
+  .header{
+    margin-bottom: -292px;
+  }
+}
+
+
+
+
+.s1, .s2, .s3, .s4, .s5 {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8f8;
+}
+
+.s1 {
+  background-color: #f8f8f8;
+}
+
+.s2 {
+  background-color: #f4f4f4;
+}
+
+.s3 {
+  background-color: #f0f0f0;
+}
+
+.s4 {
+  background-color: #ececec;
+}
+
+.s5 {
+  background-color: #e8e8e8;
 }
