@@ -73,7 +73,7 @@ img {
   top: 0;
   height: auto;
   border-top: 7px solid rgb(165, 164, 164);
-  padding: 50px;
+  padding: 0 50px 30px;
 }
 
 .s1 {
@@ -96,7 +96,6 @@ img {
   background-color: #e8e8e8;
 }
 
-
 .section {
   /* border: 1px solid red; */
   text-align: justify;
@@ -107,9 +106,26 @@ img {
 }
 
 .firstsection {
-  font-size: 25px;
+  font-size: 30px;
 }
 
+.musicsection{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.musicsection img{
+  width: 25px;
+  height: auto;
+}
+
+.footerimage{
+  width: 15px;
+  height: auto;
+}
 
 @media screen and (max-width: 991px) {
   .first {
@@ -146,8 +162,12 @@ img {
   .s3,
   .s4,
   .s5 {
-    padding: 40px;
+    padding: 0 40px 20px;
     border-top: 5px solid rgb(165, 164, 164);
+  }
+
+  .firstsection {
+    font-size: 28px;
   }
 }
 
@@ -185,6 +205,10 @@ img {
   .s3,
   .s4,
   .s5 {
-    padding: 30px;
+    padding: 0 30px 10px;
+  }
+
+  .firstsection {
+    font-size: 25px;
   }
 }
