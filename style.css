@@ -100,6 +100,8 @@ img {
   display: flex;
   width: 100%;
   place-content: center;
+  font-size: 18px;
+  font-family: "Oswald", sans-serif;
 }
 
 .footerimage{
@@ -159,8 +161,12 @@ img {
     margin-bottom: -315px;
   }
 
-  .section {
+  .section, .footer {
     font-size: 16px;
+  }
+
+  .footerimage{
+    width: 14px;
   }
 
   .s1,
@@ -202,8 +208,12 @@ img {
     margin-bottom: -292px;
   }
 
-  .section {
+  .section, .footer {
     font-size: 14px;
+  }
+
+  .footerimage{
+    width: 13px;
   }
 
   .s1,
