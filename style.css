@@ -181,6 +181,14 @@ img {
   .firstsection {
     font-size: 23px;
   }
+
+  .musicsection img{
+    width: 24px;
+  }
+
+  .musicsection{
+    margin-top: 8px;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -226,5 +234,13 @@ img {
 
   .firstsection {
     font-size: 21px;
+  }
+
+  .musicsection img{
+    width: 23px;
+  }
+
+  .musicsection{
+    margin-top: 6px;
   }
 }
