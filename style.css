@@ -73,7 +73,7 @@ img {
   top: 0;
   height: auto;
   border-top: 7px solid rgb(165, 164, 164);
-  padding: 0 50px 30px;
+  padding: 0 100px 30px;
 }
 
 .s1 {
@@ -96,17 +96,28 @@ img {
   background-color: #e8e8e8;
 }
 
+.footer{
+  display: flex;
+  width: 100%;
+  place-content: center;
+}
+
+.footerimage{
+  width: 15px;
+  height: auto;
+}
+
 .section {
   /* border: 1px solid red; */
   text-align: justify;
   word-wrap: break-word;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Oswald", sans-serif;
   font-weight: 400;
 }
 
 .firstsection {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .musicsection{
@@ -119,11 +130,6 @@ img {
 
 .musicsection img{
   width: 25px;
-  height: auto;
-}
-
-.footerimage{
-  width: 15px;
   height: auto;
 }
 
@@ -154,7 +160,7 @@ img {
   }
 
   .section {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .s1,
@@ -162,12 +168,12 @@ img {
   .s3,
   .s4,
   .s5 {
-    padding: 0 40px 20px;
+    padding: 0 70px 20px;
     border-top: 5px solid rgb(165, 164, 164);
   }
 
   .firstsection {
-    font-size: 28px;
+    font-size: 23px;
   }
 }
 
@@ -197,7 +203,7 @@ img {
   }
 
   .section {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .s1,
@@ -205,10 +211,10 @@ img {
   .s3,
   .s4,
   .s5 {
-    padding: 0 30px 10px;
+    padding: 0 35px 10px;
   }
 
   .firstsection {
-    font-size: 25px;
+    font-size: 21px;
   }
 }
